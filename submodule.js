@@ -1,5 +1,5 @@
 export const log = message => {
-  console.log('[submodule]'+ message);
+  console.log('[submodule update]'+ message);
 }
 
 const add = (...args) => args.reduce((acc, cur) => acc + cur, 0);
